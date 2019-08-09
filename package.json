@@ -1,0 +1,32 @@
+{
+  "name": "wallaby-webpack-babel-loader",
+  "version": "1.0.0",
+  "description": "This project demonstrates how to configure wallaby.js with webpack built-in postprocessor and babel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/wallaby-webpack-babel-loader.git"
+  },
+  "keywords": [
+    "wallaby.js",
+    "webpack",
+    "babel"
+  ],
+  "author": "Wallaby.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/wallaby-webpack-babel-loader/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/wallaby-webpack-babel-loader#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "prettier": "^1.18.2",
+    "webpack": "^4.39.1"
+  }
+}
