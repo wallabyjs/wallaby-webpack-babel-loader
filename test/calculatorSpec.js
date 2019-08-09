@@ -43,31 +43,26 @@ describe('Calculator', () => {
     expect(calculator.divide(6, 2)).toBe(3);
   });
 
+  it('should multiply non-zero numbers', () => {
+    expect(calculator.multiply(3, 3)).toBe(9);
+  });
+
   it('should multiply numbers', () => {
     expect(calculator.multiply(0, 3)).toBe(0);
     expect(calculator.multiply(3, 0)).toBe(0);
   });
 
-  it('should multiply non-zero numbers', () => {
-    expect(calculator.multiply(3, 3)).toBe(9);
-  });
-
-  it('should multiply numbers', function () {
-    expect(calculator.multiply(0, 3)).toBe(0);
-    expect(calculator.multiply(3, 0)).toBe(0);
-  });
-
-  it('should square number', function () {
+  it('should square number', () => {
     expect(calculator.square(5)).toBe(25);
     expect(calculator.square(10)).toBe(100);
   });
 
-  it('should return square root', function () {
+  it('should return square root', () => {
     expect(calculator.squareRoot(64)).toBe(8);
     expect(calculator.squareRoot(400)).toBe(20);
   });
 
-  it('should power base to exponent', function () {
+  it('should power base to exponent', () => {
     expect(calculator.pow(5, 2)).toBe(25);
     expect(calculator.pow(2, 8)).toBe(256);
   });
